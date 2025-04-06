@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuantumShield - Phishing URL Detector</title>
+    <link rel="stylesheet" href="../../css/skin.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Simple Header Section -->
+    <header class="simple-header">
+        <div class="header-container">
+            <div class="logo">
+                <a href="../../index.html">
+                    <img src="../../img/logo.ico" alt="QuantumShield Logo">
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="../../index.html">Home</a></li>
+                    <li><a href="../../index.html#about-us">About Us</a></li>
+                    <li><a href="../../index.html#services">Services</a></li>
+                    <li><a href="../../index.html#about-us">Our Team</a></li>
+                    <li><a href="../../index.html#about-us">FAQ's</a></li>
+                    <li><a href="../../index.html#footer">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <section class="site-section phishing-section">
+        <div class="site-wrapper">
+            <div class="section-heading text-center">
+                <h2>Phishing URL Detector</h2>
+                <p class="section-description">Check if a URL is potentially malicious or safe to visit</p>
+            </div>
+            <div class="site-row justify-center">
+                <div class="site-col col-6">
+                    <div class="phishing-container">
+                        <div class="input-group">
+                            <input type="text" id="urlInput" placeholder="Enter a URL to check..." class="url-input">
+                            <button onclick="checkPhishing()" class="site-btn">Analyze URL</button>
+                        </div>
+                        <div id="result" class="result-container"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="footer">
+        <div class="site-wrapper">
+            <div class="top-footer">
+                <div class="site-row">
+                    <div class="site-col col-3">
+                        <div class="ftr-nav">
+                            <h6>Quick Links</h6>
+                            <ul>
+                                <li><a href="../../index.html">Home</a></li>
+                                <li><a href="../../index.html#about-us">About Us</a></li>
+                                <li><a href="../../index.html#services">Services</a></li>
+                                <li><a href="../../index.html#testimonials">Our Team</a></li>
+                                <li><a href="../../index.html#footer">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="site-col col-6">
+                        <div class="ftr-nav">
+                            <h6>Services</h6>
+                            <ul>
+                                <li><a href="../../index.html#services">Phishing Detection</a></li>
+                                <li><a href="../../index.html#services">Malware Detection</a></li>
+                                <li><a href="../../index.html#services">Deepfake Detection</a></li>
+                                <li><a href="#footer">coming soon</a></li>
+                                <li><a href="#footer">Coming Soon</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="site-col col-3">
+                        <div class="ftr-nav ftr-contact">
+                            <h6>Contact</h6>
+                            <p>IILM University,<br>Greater Noida, U.P - 201310</p>
+                            <div class="ftr-contact">
+                                <p><span class="icon"><img src="/img/chat-icon.svg" width="18" height="18" alt=""></span>Get in touch</p>
+                                <a href="tel:+1234567890" class="phone-link"><p><span class="icon"><img src="/img/mobile-icon.svg" width="14" height="14" alt=""></span>Mobile</p></a>
+                                <a href="mailto:ritesh.kumar.cs28@iilm.edu" class="email-button"><p><span class="icon"><img src="/img/email-icon.svg" width="18" height="18"alt=""></span><a href="mailto:ritesh.kumar.cs28@iilm.edu" class="email-button">Email Us</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-footer">
+                <p class="site-copyright"><span> © QuantumShield. All Rights Reserved.</span> Team QuantumShield</p>
+                <div class="ftr-social d-flex">
+                    <a href="#"><img src="/img/facebook-icon.svg" width="32" height="32" alt="Facebook"></a>
+                    <a href="#"><img src="/img/instagram-icon.svg" width="32" height="32" alt="Instagram"></a>
+                    <a href="#"><img src="/img/linkedin-icon.svg" width="32" height="32" alt="LinkedIn"></a>
+                </div>
+                <a href="#" class="go-top">Back to Top <span class="arrow"></span></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
